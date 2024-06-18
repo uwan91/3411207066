@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* 合併框線 */
+    .table{
+        border-collapse: collapse;
+    }
+    .one{
+        /* 背景顏色 */
+        background-color: gray;
+        /* 字體顏色 */
+        color: white;
+        /* 文字對齊 */
+        text-align: center;
+    }
+    .two{
+        /* 背景顏色 */
+        background-color: green;
+        /* 字體顏色 */
+        color: white;
+        /* 文字對齊 */
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <table class="table" border="1" width="400" height="400">
+        <tr>
+            <td class="one">姓名</td>
+            <td colspan="3">徐郡</td>
+        </tr>
+        <tr>
+            <td class="one">學號</td>
+            <td colspan="3">3411207066</td>
+        </tr>
+        <tr>
+            <td class="two" colspan="4">自我介紹</td>
+        </tr>
+        <tr>
+            <td class="one">我的學歷</td>
+            <td colspan="3">國立台中科技大學</td>
+        </tr>
+        <tr>
+            <td class="one">身高</td>
+            <td>180cm</td>
+            <td class="one">體重</td>
+            <td>60kg</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="one">我的興趣</td>
+            <td colspan="3">運動</td>
+        </tr>
+        <tr>
+            <td colspan="3">寫程式</td>
+        </tr>
+    </table>      
+</body>
+</html>
